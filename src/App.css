@@ -1,0 +1,1236 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+      font-family: 'Roboto', sans-serif;
+}
+
+html {
+      scroll-behavior: smooth;
+}
+
+body {
+      font-family: "Roboto", sans-serif;
+}
+
+
+.headerSec {
+      background-color: #1e2228;
+      color: #fff;
+      position: relative;
+
+}
+/* .fixedNav{
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: #f7f7f7;
+} */
+
+.socialMediaHead ul li {
+      list-style: none;
+}
+
+.socialMediaHead ul li a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #2580fe;
+
+}
+
+.GetBtn {
+      background-color: #2580fe;
+      border: none;
+      padding: .5rem 1.5rem;
+      border-radius: 2.5rem;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: .5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #fff;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.GetBtn:hover {
+      background-color: #eb143a;
+
+}
+
+.getBtn {
+      color: #fff;
+      text-decoration: none;
+}
+
+.companyLogo {
+      width: 10rem;
+      height: 5rem;
+      object-fit: contain;
+}
+
+
+/* .carousel-item img {
+      width: 100%;
+
+      object-fit: contain;
+      filter: brightness(11px);
+      opacity: .8;
+}
+
+.carousel-item {
+      position: relative;
+}
+
+
+.carousel-caption h5 {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+      
+      } */
+      .carousel-caption{
+      
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0%;
+            bottom: 0;
+      }
+      .carousel-caption h5{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 300;
+
+      }
+
+
+      .sec {
+      background-color: aliceblue;
+
+}
+
+.textInsurance {
+      font-size: 2rem;
+      /* width: 70%; */
+      font-weight: 500;
+}
+
+.homeText {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, .7)20% , rgba(0, 0, 0, .8)50%),
+            url('./Components/Images/oneBlock.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 13rem;
+
+
+}
+
+.homeText p {
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 2rem 2.5rem;
+
+}
+
+.homeText span {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+}
+
+.homeTwo {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, .7)20%, rgba(0, 0, 0, .8)50%),
+            url('./Components/Images/twoBlock.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 13rem;
+}
+
+.homeTwo p {
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 2rem 2.5rem;
+}
+
+.homeTwo span {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+}
+
+.whoContainer {
+      background-image:url('./Components/Images/who.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+
+      height: 42rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      gap: 1rem;
+
+}
+
+.whoTitle {
+      color: #2580fe;
+      font-size: 1rem;
+      font-weight: 300;
+      letter-spacing: 1.75px;
+}
+
+.insuranceTitle {
+      font-size: 2rem;
+}
+
+
+.whoText {
+      font-size: 1.2rem;
+      font-weight: 300;
+}
+
+.about {
+      color: #2580fe;
+      font-weight: 500;
+}
+
+.about:hover {
+      text-decoration: none;
+
+}
+
+.insuranceTitles {
+      color: #2a2d33;
+      font-weight: 500;
+      font-size: 2rem;
+
+}
+
+.insuranceTitle {
+      color: #fff;
+      font-weight: 500;
+      font-size: 1.6rem;
+
+}
+
+.insuranceCoverage {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #fff;
+}
+
+.getStarted {
+      background-image: url('./Components/Images/getStartef.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 17.5rem;
+
+}
+
+.getStartedBtn {
+      display: flex;
+      justify-content: flex-end;
+}
+
+.btns {
+      background-color: #fff;
+      padding: .5rem 1.2rem;
+      border: none;
+      border-radius: 1rem;
+      color: #2580fe;
+      font-weight: 600;
+}
+
+.familyCard {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+
+}
+
+.familyCard p {
+      font-weight: 400;
+      color: #778793;
+
+
+}
+
+.img img {
+      width: 100%;
+      object-fit: contain;
+}
+
+.familyText {
+      font-size: 1rem;
+      color: #2580fe;
+      font-weight: 500;
+
+}
+
+.list-checker {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: relative;
+      padding: 1.5rem 2rem;
+}
+
+.list-checker li {
+      list-style: none;
+      color: #778793;
+      font-weight: 700;
+      position: relative;
+      font-size: 1rem
+}
+
+.list-checker li::before {
+      content: '\f00c';
+      font-family: 'FontAwesome';
+
+      color: #2580fe;
+      font-size: 1rem;
+      position: absolute;
+      left: -1.5rem;
+      top: 0;
+
+}
+
+.pullRight {
+      float: right;
+}
+
+.talkBtn {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 1rem 2.1rem;
+      border-radius: 2rem;
+      border: none;
+      background-color: #eb143a;
+      color: #fff;
+      font-size: .9rem;
+      text-align: center;
+      font-weight: 400;
+      border-color: #eb143a;
+      cursor: pointer;
+
+      transition: .3s ease-in-out;
+}
+
+.talkBtn:hover {
+      background-color: #2580fe;
+      color: #fff;
+}
+
+.InsurifySec {
+      background-color: #f5f5f5;
+      height: 26.5rem;
+      display: flex;
+      align-items: center;
+}
+
+.ratesText {
+      color: #2580fe;
+      font-weight: 500;
+}
+
+.helpSpan {
+      color: #778793;
+      font-weight: 300;
+}
+
+.clientReview {
+      background-image: url('./Components/Images/bgImg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40rem;
+}
+
+.text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.imgFluid {
+
+      width: 100%;
+      object-fit: cover;
+
+}
+
+.Universal {
+      font-size: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.Universal:hover {
+      color: #2580fe;
+}
+
+.lifePolicy {
+      font-weight: 300;
+}
+
+.postDate {
+      display: flex;
+      flex-direction: column;
+      background-color: #2580fe;
+      position: absolute;
+      top: 0;
+      left: 2.5rem;
+      padding: .6rem 1rem;
+      height: 5rem;
+      transition: .5s ease-in-out;
+      font-weight: 400;
+}
+
+.dates {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      font-size: 1.2rem;
+}
+
+.carding {
+      display: flex;
+      gap: .5rem;
+
+}
+
+.swiper {
+      width: 100%;
+      height: 100%;
+}
+
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.companiesHeading {
+      font-size: 1.2rem;
+      text-align: center;
+      font-weight: 300;
+      letter-spacing: 1px;
+      color: #2580fe;
+}
+
+.mySwiper {
+      width: 100%;
+      padding: 1rem 0;
+}
+
+.questSec {
+      background-color: #2580fe;
+}
+
+.quoteBtn {
+      background-color: #fff;
+      border: 2px solid #fff;
+      display: inline-block;
+      vertical-align: middle;
+      padding: .5rem 1.2rem;
+      color: #fff;
+      border-radius: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.quoteBtn:hover {
+      background-color: #fff;
+      color: #2580fe;
+}
+
+/* footer section */
+.footerWidget {
+      background-color: #2a2d33;
+      color: #fff;
+      line-height: 1.75;
+      padding-top: 67px;
+      padding-bottom: 67px;
+}
+
+.headingText {
+      color: #fff;
+}
+
+.headingText h3 {
+      font-weight: 500;
+}
+
+.headingText span {
+      font-weight: 300;
+}
+
+.serviceList {
+      position: relative;
+      left: -16px;
+}
+
+.serviceList li {
+      list-style: none;
+
+}
+
+.serviceList li::before {
+      content: "\f105";
+      font-family: 'FontAwesome';
+      position: absolute;
+      left: .9rem;
+      font-size: 1rem;
+      display: inline-block;
+      color: #2580fe;
+      transition: left .3s;
+}
+
+.serviceList li::before:hover {
+      content: "\f105";
+      left: 3px;
+}
+
+.serviceList a {
+      text-decoration: none;
+      color: #FFF;
+
+}
+
+.addressList {
+      list-style: none;
+      position: relative;
+      left: -32px;
+
+}
+
+.logo img {
+      width: 50%;
+      object-fit: contain;
+}
+
+.socialMedia ul li {
+      list-style: none;
+      position: relative;
+      left: -32px;
+}
+
+.socialMedia ul li a {
+      text-decoration: none;
+      color: #fff;
+
+}
+
+.footerText {
+      font-size: 1rem;
+      color: #2580fe;
+      font-weight: 600;
+}
+
+/* copyright */
+.copyRight {
+      background-color: #1e2228;
+      color: #fff;
+      padding: 2rem 0;
+
+}
+
+.copyRight p {
+      font-weight: 300;
+}
+
+.siteMap a {
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.siteMap a:hover {
+      color: #2580fe;
+}
+
+.rightSide {
+      text-align: right;
+}
+
+.rightSide p {
+      text-align: right;
+}
+
+.rightSide a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 300;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.rightSide a:hover {
+      color: #2580fe;
+}
+
+.fa-heart::before {
+      content: "\f004";
+
+}
+
+.fa {
+      display: inline-block;
+      font: normal normal normal 14px/1 "FontAwesome";
+      font-size: 14px;
+      font-size: inherit;
+      text-rendering: auto;
+}
+
+.update {
+      padding: 5rem 0;
+}
+
+.heading h2 {
+      font-size: 1rem;
+      font-weight: 600;
+}
+
+.heading span {
+      font-size: 1.2rem;
+      font-weight: 300;
+}
+
+.wide-md {
+      max-width: 970px;
+      margin: 0 auto;
+}
+
+.center {
+      text-align: center;
+}
+
+.circle {
+      border-radius: 50%;
+}
+
+.image.circle img {
+      border-radius: inherit;
+}
+
+.image-md img {
+      width: 90%;
+      max-width: 220px;
+}
+
+img {
+      outline: 0;
+      border: 0 none;
+      vertical-align: top;
+}
+
+.colorPrimary {
+      color: #2580fe;
+}
+
+.needs {
+      padding: 2.5rem 1rem;
+}
+
+.row-column-md {
+      padding: 2rem 0;
+}
+
+.wide-md h3 {
+      font-size: 1rem;
+      font-weight: 300;
+
+}
+
+.wide-md strong {
+      font-size: 2rem;
+      font-weight: 600;
+}
+
+.bannerImg {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url("./Components/Images/bannerImg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 22rem;
+      padding: 2rem 0;
+}
+
+/* bannerText */
+.textBanner {
+      color: #fff;
+}
+
+.textBanner h3 {
+      font-weight: 500;
+      font-size: 2.2rem;
+}
+
+.textBanner span {
+      font-size: 1rem;
+      font-weight: 400;
+}
+
+.cards {
+      background-color: #2580fe;
+      height: 170px;
+      width: 350px;
+      opacity: .9;
+}
+
+.card-body p {
+      color: #fff;
+      font-weight: 500;
+      padding: 1.2rem;
+
+}
+
+.card-body a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1.2rem;
+      font-size: 1rem;
+      font-weight: 600;
+}
+
+/* UpdateINSection */
+.cardHover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+      border-radius: 10px;
+}
+
+.cardHover:hover {
+      transform: translateY(-8px) scale(1);
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+      background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+.cardBody {
+      padding: 1rem;
+}
+
+.cardBody:hover {
+      box-sizing: border-box;
+      /* box-shadow: 8px 8px 8px 8px #e1e1e1; */
+
+}
+
+.cardBody .Universal:hover {
+      color: #2580fe;
+}
+
+.quotes {
+      position: relative;
+      display: inline-block;
+      padding-right: 2rem;
+}
+
+.quotes::after {
+      content: "\f061";
+      /* FontAwesome arrow */
+      font-family: 'FontAwesome';
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: 300;
+      right: -1.5rem;
+      top: 50%;
+
+      transform: translateY(-50%) rotate(0deg);
+
+      transition: transform 0.3s ease-in-out;
+}
+
+.quotes:hover::after {
+      transform: translateY(-50%) rotate(45deg);
+      /* Tilts the arrow on hover */
+}
+
+/* .quotes::after {
+      content: "\f061";
+      font-family: 'FontAwesome';
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: 300;
+      right: 20rem;
+} */
+
+
+.insurifyText p {
+      font-size: 1.5rem;
+      font-weight: 400;
+}
+
+.insurifyText h6 {
+      color: #2580fe;
+      font-size: 1.1rem;
+      font-weight: 300;
+}
+
+.insurifyText .insurancePara {
+      color: #778793;
+      font-weight: 400;
+
+
+}
+
+.companyText {
+      color: #778793;
+      font-weight: 400;
+
+}
+
+.ownText {
+      color: #778793;
+      font-weight: 400;
+
+}
+
+/* company */
+.companyCard {
+      padding: 2.5rem 1rem;
+}
+
+.team {
+      background-color: #f5f5f5;
+      padding: 2.5rem 2rem;
+
+
+}
+
+.team h3 {
+      font-size: 1.2rem;
+}
+
+.team p {
+      color: #778793;
+      font-weight: 500;
+}
+
+.team a {
+      text-decoration: none;
+}
+
+.quotes {
+      position: relative;
+      display: inline-block;
+      padding-right: 2rem;
+}
+
+.quotes::after {
+      content: "\F123";
+
+      font-family: 'bootstrap-icons';
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: 300;
+      right: -1.5rem;
+      top: 50%;
+
+      transform: translateY(-50%) rotate(0deg);
+
+      transition: transform 0.3s ease-in-out;
+}
+
+.quotes:hover::after {
+      transform: translateY(-50%) rotate(-45deg);
+
+}
+
+
+
+
+/* .team a::after {
+      content: "\f061";
+      font-family: 'FontAwesome';
+      position: absolute;
+      transform: scaleX(1.5);
+      translate: 1rem;
+
+} */
+
+/* property section */
+.propertySection {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url('./Components/Images/plxDark.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50rem;
+}
+
+.imgFluids {
+      outline: 0;
+      border: 0 none;
+      height: auto;
+      vertical-align: top;
+      max-width: 100%;
+      border-radius: .5rem;
+}
+
+.call {
+      font-size: 1rem;
+      font-weight: 300;
+}
+
+.ServicesQuotes {
+      position: relative;
+      display: inline-block;
+      padding-right: 2rem;
+}
+
+.ServicesQuotes::after {
+      content: "\F123";
+
+      font-family: 'bootstrap-icons';
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: 300;
+      right: -1.5rem;
+      top: 50%;
+
+      transform: translateY(-50%) rotate(0deg);
+
+      transition: transform 0.3s ease-in-out;
+}
+
+.ServicesQuotes:hover::after {
+      transform: translateY(-50%) rotate(-45deg);
+
+}
+
+/* .ServicesQuotes::after {
+      content: "\f061";
+      font-family: 'FontAwesome';
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: 300;
+      right: 25.5rem;
+      transform: translate(10px)
+} */
+
+/* testimonials text */
+.testBanner {
+      background-image: url("./Components/Images/bannerContact.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 21.5rem;
+}
+
+.ceoText {
+      color: #778793;
+      font-weight: 300;
+}
+
+.testQuotes::after {
+      content: "\f061";
+      font-family: 'FontAwesome';
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: 300;
+      right: 21.5rem;
+      transform: translate(10px)
+}
+
+/* companyBanner */
+.companyBanner {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("./Components/Images/companyBanner.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 36dvh;
+}
+
+/* blog banner */
+.imgHover {
+      width: 100%;
+      height: auto;
+
+      overflow: hidden;
+}
+
+.imgHover img {
+      transition: all 0.3s ease-out;
+}
+
+.imgHover img:hover {
+      transform: scale(1.2);
+
+}
+
+.datesPolicy {
+      padding: 1rem 0;
+}
+
+.datesPolicy::before {
+      content: '\f133';
+      font-family: 'FontAwesome';
+      position: absolute;
+      font-size: .8rem;
+      color: #778793;
+      font-weight: 300;
+
+}
+
+.datesPolicy h4 {
+      font-size: .9rem;
+      color: #778793;
+      padding: 0 1.2rem;
+      font-weight: 300;
+}
+.formGroup{
+      position: relative;
+      border: none;
+}
+
+.formGroup input {
+      background-color: #f5f5f5;
+      border: none;
+      padding: .4rem 1rem;
+      width: 100%;
+      position: relative;
+      border: none;
+}
+
+ /* .input-group{
+      position: relative;
+      z-index: 1;
+      
+} */
+
+
+ .formGroup .searchBtn {
+      background-color: #ccc;
+      position: absolute;
+      top: 0rem;
+      right: 0rem;
+      padding: .6rem .9rem;
+      border: 1px #ccc;
+      border-radius: 2px;
+      z-index: 1;
+      cursor: pointer;
+      height: fit-content;
+      transition: .3s ease-in-out;
+} 
+.formGroup .searchBtn i:hover{
+      color: #2580fe;
+}
+
+
+
+.imgFLoat {
+      width: 25%;
+      float: left;
+      outline: none;
+      border: 0 none;
+      height: auto;
+      border-radius: .5rem;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+
+.imgFLoat:hover {
+      opacity: .5;
+}
+
+.text {
+      padding: 0 .5rem;
+      color: #778793;
+      font-weight: 300;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.text:hover {
+      color: #2580fe;
+}
+
+/* .tagButton {
+      border: 1px lightblue;
+      padding: 0.5rem 1rem;
+      background-color: #ffff;
+      border-radius: .5rem;
+      color: #2580fe;
+      font-size: .9rem;
+      font-weight: 500;
+
+      cursor: pointer;
+      transition: .3s ease-in-out;
+} */
+/* .businessBtn{
+      border-radius: 12px;
+ } */
+/* .tagBtn{
+      background-color: #fff;
+      border: none;
+      padding: .5rem .9rem;
+      color: #2580fe;
+      
+
+}
+.tagBtn a{
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+ } */
+
+.businessBtn {
+      border: 1px solid #2580fe;
+      padding: 0.5rem .5rem;
+      border-radius: .5rem;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+
+}
+
+.businessBtn:hover {
+      background-color: #c4ccd7;
+
+}
+
+.businessBtn a {
+      text-decoration: none;
+      text-align: center;
+      font-weight: 300;
+      font-size: 1rem;
+      display: block;
+
+}
+
+.businessBtn a:hover {
+
+      color: #1a1a1a;
+}
+
+.contactInfoBox {
+      background-color: #f5f5f5;
+      border: 8px solid rgba(37, 128, 254, 0.1);
+      height: 22.5rem;
+      padding: 2rem 1.5rem;
+
+}
+
+.claimInsurance::after {
+      content: '\f061';
+      font-family: 'FontAwesome';
+      position: absolute;
+      right: 22rem;
+
+}
+
+/* form contact page */
+
+
+input[type="text"],
+[type="email"] {
+      border: 1px solid #e1e1e1;
+      background-color: #f4f8f8;
+}
+
+.formArea {
+      border: 1px solid #e1e1e1;
+      background-color: #f4f8f8;
+      border-radius: .5rem;
+      padding: 0 .5rem;
+
+}
+
+.formBtn {
+      background-color: #2580fe;
+      color: #fff;
+      border: none;
+      width: 7rem;
+      padding: .5rem 1rem;
+      border-radius: 1rem;
+      text-transform: uppercase;
+      font-size: .8rem;
+      text-align: center;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+}
+
+.formBtn:hover {
+      background-color: #eb143a;
+}
+
+.imgLocation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 0;
+}
+
+.imgLocation img {
+      object-fit: contain;
+      width: 100%;
+}
+
+
+
+.Quotes {
+      border: none;
+      text-decoration: none;
+      background-color: #2580fe;
+      padding: .5rem .5rem;
+      color: #fff;
+      border-radius: 1rem;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 1rem;
+}
+.carding{
+      width: 350px;
+      /* height: 250px; */
+     
+}
+.bgImg{
+      background-image: linear-gradient(to right,rgba(0,0,0,.6),rgba(0,0,0,.9))
+      ,url("./Components/Images/handshake.jpg");
+      background-size: cover;
+      height: 420px;
+      width: 100%;
+      background-repeat: no-repeat;
+      /* background-position: 50% 50%; */
+}
+.bannerHomeText{
+      font-size: 2rem;
+      font-weight: 700;
+}
+.twoImg{
+      background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .9))
+      ,url("./Components/Images/person.jpg");
+            background-size: cover;
+            height: 420px;
+            width: 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+            /* background-position: 100% 0%; */
+}
+.threeImg{
+      background-image:linear-gradient(to right, rgba(0, 0, 0, .6)50%, rgba(0, 0, 0, .9))
+      ,url("./Components/Images/mili.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 420px;
+      
+}
+
+.nav-link:hover{
+      color: #2580fe !important;
+}
+.nav-link.active {
+      color: blue !important;
+      font-weight: 300;
+}
