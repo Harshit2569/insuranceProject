@@ -2,7 +2,7 @@ import React from "react";
 import Home from "../Images/oneHome.jpg";
 import NewYork from "../Images/NewYork.jpg";
 import Family from "../Images/family.jpg";
-import Ocean from "../Images/Ocean.jpg";
+import Ocean from "../Images/ocean.jpg";
 function BlogSection() {
   return (
     <>
